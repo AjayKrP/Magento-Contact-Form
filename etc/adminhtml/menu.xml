@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Literacis_ContactForm::literacis" title="Employee Contact" module="Literacis_ContactForm" sortOrder="35" resource="Literacis_ContactForm::literacis"/>
+        <add id="Literacis_ContactForm::manage_items" title="Manage Employees" module="Literacis_ContactForm" sortOrder="12" parent="Literacis_ContactForm::literacis" action="literacis/index/" resource="Literacis_ContactForm::literacis"/>
+    </menu>
+</config>

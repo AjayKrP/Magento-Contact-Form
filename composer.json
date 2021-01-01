@@ -1,0 +1,24 @@
+{
+    "name": "literacis/module-contact-form",
+    "description": "A Magento module to store emplyeee information",
+    "keywords": [
+      "literacis", "learning platform", "india",
+      "employee contact info"
+    ],
+    "homepage": "https://literacis.com",
+    "support": {
+      "email": "info@literacis.com",
+      "docs": "https://github.com/AjayKrP/Contact-Form/README.md"
+    },
+    "type": "magento2-module",
+     "version": "1.0.0",
+     "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Literacis\\ContactForm\\": ""
+        }
+    }
+}
